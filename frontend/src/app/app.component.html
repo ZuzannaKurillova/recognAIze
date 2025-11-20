@@ -1,0 +1,26 @@
+<div class="app-container">
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-section">
+        <img src="logo.png" alt="RecogAIze Logo" class="logo-icon">
+        <h1>{{ title }}</h1>
+      </div>
+      <p class="subtitle">Transform your images into descriptive captions using AI</p>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="content-wrapper">
+      <app-image-upload (fileSelected)="onFileSelected($event)"></app-image-upload>
+      <app-caption-display 
+        [caption]="caption()" 
+        [isLoading]="isLoading()" 
+        [error]="error()">
+      </app-caption-display>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 RecognAIze - Zuzana Kurillova. Powered by BLIP AI Model • Built with Angular & FastAPI</p>
+  </footer>
+</div>
