@@ -1,4 +1,4 @@
-# RecogAIze - AI Image Captioning Application
+# RecognAIze - AI Image Captioning Application
 
 An AI-powered web application that automatically generates descriptive captions for images using deep learning. Built with Angular frontend, FastAPI backend, and PyTorch-based BLIP (Bootstrapping Language-Image Pre-training) model.
 
