@@ -2,8 +2,7 @@
 
 An AI-powered web application that automatically generates descriptive captions for images using deep learning. Built with Angular frontend, FastAPI backend, and PyTorch-based BLIP (Bootstrapping Language-Image Pre-training) model.
 
-
-![Uploading Screenshot 2025-11-20 at 16.57.21.png…]()
+<img width="834" height="1077" alt="Screenshot 2025-11-20 at 16 57 21" src="https://github.com/user-attachments/assets/41e7467b-8851-429a-9807-cf264ef1e13b" />
 
 
 ## Features
